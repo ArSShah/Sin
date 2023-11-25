@@ -1,1 +1,41 @@
+def desribe_number(number):
+    if number == 0:    
+        return 'нулевое'
+    elif number < 0:
+        return ' отрицательно'
+    else:
+        return 'положительное'
+    if number %2 == 0:
+        return 'четное'
+    else:
+        return 'не чет'
 
+
+word = input()
+counter1 = 0
+counter2 = 0
+aeiou
+bcdfghjklmnpqrstvwxz
+for i in range(len(s)):
+    if s(i) in 'aeiou':
+        counter1 += 1
+    elif(s) in  'bcdfghjklmnpqrstvwxz':
+        counter2 += 1
+print('гласные =', counter1)
+print('согласные =', counter2)
+
+
+
+summa=int(input("Минимальная сумма инвестиций - "))
+maikl=int(input("Cколько долларов у Майкла - "))
+ivan=int(input("Сколько долларов у Ивана - "))
+if (maikl>=summa) and (ivan>=summa):
+    print(2)
+elif (maikl>=summa) and (ivan<=summa):
+    print("Mike")
+elif (maikl<=summa) and (ivan>=summa):
+    print("Ivan")
+elif (maikl<=summa) and (ivan<=summa) and ((maikl+ivan)>=summa):
+    print(1)
+elif (maikl<=summa) and (ivan<=summa) and ((maikl+ivan)<=summa):
+    print(0)
